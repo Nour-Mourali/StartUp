@@ -1192,7 +1192,8 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			/* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png"); */
+			background-image: url("../../images/avatar 1.png");
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1201,6 +1202,7 @@ input, select, textarea {
  repeat;
 			z-index: 2;
 		}
+
 
 		#bg:after {
 			-moz-transform: scale(1.125);
@@ -1343,13 +1345,20 @@ input, select, textarea {
 				display: none;
 			}
 
-		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
-		}
+			#header .logo {
+				width: 13rem;
+				height: 13rem;
+				line-height: 3rem;
+				border: solid 1px #ffffff;
+				border-radius: 100%;
+				margin-top: 5px;
+			}
+			#header .logo img{
+			/* margin-top: 30px; */
+			width: 13rem;
+				height: 13rem;
+				border-radius: 100%; 
+			}
 
 			#header .logo .icon:before {
 				font-size: 2rem;
